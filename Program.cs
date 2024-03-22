@@ -20,7 +20,7 @@ namespace CreateExcelFile
             Console.WriteLine("Enter the column names (separated with ,)");
             string[] columnNames = Console.ReadLine().Split(',');
 
-            string repoParh = @"C:\Users\akin.duran\Desktop\TestFolder";
+            string repoParh = @"C:\Path\To\Your\Repo";
             string filePath = Path.Combine(repoParh, fileName + ".xlsx");
 
 
